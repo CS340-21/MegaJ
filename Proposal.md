@@ -25,3 +25,23 @@ Roles:
 * Megan Stanton: Sorting Algorithms and other portions of the application
 
 ### Project Management
+Schedule:
+We will meet weekly on Zoom.
+Week 1 (2/15 - 2/19) - Revise Project Proposal
+Week 2 (2/22 - 2/26) - Begin work on basic application
+Week 3 (3/1 - 3/5) - Implement the inputting of recipes and ingredients (Submit Status Report 1)
+Week 4 (3/8 - 3/12) - Implement sorting algorithm for different characteristics
+Week 5 (3/15 - 3/19) - Continue work on sorting algorithm (Submit Status Report 2)
+Week 6 (3/22 - 3/26) - Continue work on sorting algorithm
+Week 7 (3/29 - 4/2) - Implement social media aspect of application (Submit Status Report 3)
+Week 8 (4/5 - 4/9) - Refine application, begin work on project report
+Week 9 (4/12 - 4/16) - Finish project report and presentation
+
+Constraints:
+We currently do not have any regulatory or legal constraints. We also do not have any ethical or social concerns.
+
+Resources:
+We will have access to the data we need. All three of us have family recipes that we can use to implement the application. We will also implement a base database of recipes for clients that do not have recipes to input, but would still like to use our application.
+
+Descoping:
+If we cannot implement the social media aspect, the reduced functionality of the application will still be useful in reducing food waste. Even if we cannot implement sorting by expiration dates, having the ability to input ingredients and produce possible recipes will still be a useful application. The basic application that we would like to implement is to be able to input ingredients and recipes. The application would also display recipes that are possible with those ingredients, and would be sorted by recipes that contain the most number of owned ingredients.
