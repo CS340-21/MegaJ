@@ -1,6 +1,6 @@
-**Mission Recipe**
-**MegaJ**
-**Jaidin Jackson, Joshua Gray, Megan Stanton**
+**Mission Recipe**  
+**MegaJ**  
+**Jaidin Jackson, Joshua Gray, Megan Stanton**  
 
 
 ### Introduction
