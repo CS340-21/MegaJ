@@ -1,8 +1,8 @@
-<div style="text-align:center">
+<p align="center">
 # Mission Recipe
 ## MegaJ
 ## Jaidin Jackson, Joshua Gray, Megan Stanton
-</div>
+</p>
 
 ## Introduction
 
