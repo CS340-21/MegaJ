@@ -1,16 +1,15 @@
-<p align="center">
-# Mission Recipe
-## MegaJ
-## Jaidin Jackson, Joshua Gray, Megan Stanton
-</p>
-
-## Introduction
+**Mission Recipe**
+**MegaJ**
+**Jaidin Jackson, Joshua Gray, Megan Stanton**
 
 
-## Customer Value
+### Introduction
 
-## Proposed Solution & Technology
 
-## Team
+### Customer Value
 
-## Project Management
+### Proposed Solution & Technology
+
+### Team
+
+### Project Management
