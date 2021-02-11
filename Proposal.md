@@ -17,6 +17,11 @@ Our software will be a mobile application coded in Swift using XCode. It will ha
 In terms of technology, we will be using the coding language Swift. We will also be using XCode to code in and utilize the emulator.
 
 ### Team
+Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
 
+Roles:
+* Jaidin Jackson: User Interface
+* Joshua Gray: Debug code since he has the most experience with Swift, and also work on the inputting function of the application
+* Megan Stanton: Sorting Algorithms and other portions of the application
 
 ### Project Management
