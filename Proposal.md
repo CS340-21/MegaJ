@@ -16,6 +16,7 @@ To measure our success, we will have a completed mobile application that allows 
 Our software will be a mobile application coded in Swift using XCode. It will have a user interface that allows for the inputting of recipes and ingredients. It will also have sorting option to sort by most ingredients available or by other nutritional topics, such as calories. In terms of stretch goals, or possible enhancements, would be to add a social aspect. This social aspect would allow the user's to share their recipes, and also tips and tricks about different cooking techniques. We will have an emulator that will allow us to test different aspects of our application. It will enable us to view the app as if it were on a phone. This would further allow us to input recipes and ingredients and test our algorithms.  
 In terms of technology, we will be using the coding language Swift. We will also be using XCode to code in and utilize the emulator.
 
+#Diagram for Architecture
 ![plot](DiagramForProposal.png)
 
 ### Team
