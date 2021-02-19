@@ -14,7 +14,7 @@ To measure our success, we will have a completed mobile application that allows 
 
 ### Proposed Solution & Technology
 Our software will be a mobile application coded in Swift using XCode. It will have a user interface that allows for the inputting of recipes and ingredients. It will also have sorting option to sort by most ingredients available or by other nutritional topics, such as calories. In terms of stretch goals, or possible enhancements, would be to add a social aspect. This social aspect would allow the user's to share their recipes, and also tips and tricks about different cooking techniques.  We have five main components of our application. These components include a main menu, the recipe list, the ingredient list, account settings tab, and a discussion board. The main menu will allow the user to log in so that they can view and edit their recipes. They will also be able to view any other users recipes, but they will only be able to edit their own recipes. Other users will be able to make comments on other user's recipes using the discussion board feature. The high-level block diagram is included below. 
-#### Minimal System
+#### Minimal Viable System
 In terms of the bare minimum, our system will allow for the inputting of recipes into a database that stores them, but does not allow for editing. This system would also allow for the inputting of ingredients. The bare minimum system would be able to display the recipes that are able to be created with those ingredients.  
 
 #### Tools and Testing
