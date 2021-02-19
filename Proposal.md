@@ -44,11 +44,11 @@ We will meet weekly on Zoom.
 * Week 8 (4/5 - 4/9) - Refine application, begin work on project report
 * Week 9 (4/12 - 4/16) - Finish project report and presentation
 
-Constraints:
+#### Constraints:
 We currently do not have any regulatory or legal constraints. We also do not have any ethical or social concerns. We will have to store passwords, but none of the information contained in our application will be private, and so there should not be a need for high security. 
 
-Resources:
+#### Resources:
 We will have access to the data we need. All three of us have family recipes that we can use to implement the application. We will also implement a base database of recipes for clients that do not have recipes to input, but would still like to use our application.
 
-Descoping:
+#### Descoping:
 If we cannot implement the social media aspect, the reduced functionality of the application will still be useful in reducing food waste. Even if we cannot implement sorting by expiration dates, having the ability to input ingredients and produce possible recipes will still be a useful application. The basic application that we would like to implement is to be able to input ingredients and recipes. The application would also display recipes that are possible with those ingredients, and would be sorted by recipes that contain the most number of owned ingredients.
