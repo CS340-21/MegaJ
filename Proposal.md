@@ -13,7 +13,7 @@ From the customer's POV, our solution will deliver a mobile application that has
 To measure our success, we will have a completed mobile application that allows the user to input recipes and ingredients. We would like to have stretch goals of adding the social aspect as well as expiration dates for ingredients. The expiration dates would allow sorting recipes by ingredients about to expire to further save money.
 
 ### Proposed Solution & Technology
-Our software will be a mobile application coded in Swift using XCode. It will have a user interface that allows for the inputting of recipes and ingredients. It will also have sorting option to sort by most ingredients available or by other nutritional topics, such as calories. In terms of stretch goals, or possible enhancements, would be to add a social aspect. This social aspect would allow the user's to share their recipes, and also tips and tricks about different cooking techniques.  We have five main components of our application. These components include a main menu, the recipe list, the ingredient list, account settings tab, and a discussion board. The main menu will allow the user to log in so that they can view and edit their recipes. They will also be able to view any other users recipes that are set to public, but they will only be able to edit their own recipes. Other users will be able to make comments on other user's recipes using the discussion board feature. The high-level block diagram is included below. 
+Our software will be a mobile application coded in Swift using XCode. It will have a user interface that allows for the inputting of recipes and ingredients. It will also have sorting option to sort by most ingredients available or by other nutritional topics, such as calories. In terms of stretch goals, or possible enhancements, would be to add a social aspect. This social aspect would allow the user's to share their recipes, and also tips and tricks about different cooking techniques.  We have five main components of our application. These components include a main menu, the recipe list, the ingredient list, account settings tab, and a discussion board. The main menu will allow the user to log in so that they can view and edit their recipes. They will also be able to view any other users recipes, but they will only be able to edit their own recipes. Other users will be able to make comments on other user's recipes using the discussion board feature. The high-level block diagram is included below. 
 #### Minimal System
 In terms of the bare minimum, our system will allow for the inputting of recipes into a database that stores them, but does not allow for editing. This system would also allow for the inputting of ingredients. The bare minimum system would be able to display the recipes that are able to be created with those ingredients.  
 
@@ -25,10 +25,11 @@ In terms of technology, we will be using the coding language Swift. We will also
 ### Team
 Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
 
-Roles:
-* Jaidin Jackson: User Interface
-* Joshua Gray: Debug code since he has the most experience with Swift, and also work on the inputting function of the application
-* Megan Stanton: Sorting Algorithms and other portions of the application
+#### Roles:
+The roles in parenthesis will not be rotating. We may change which section of the application we are working on depending on the current need at the time. 
+* Jaidin Jackson: (User Advocate) User Interface
+* Joshua Gray: (Experienced Programmer) Debug code since he has the most experience with Swift, and also work on the inputting function of the application
+* Megan Stanton: (Project Manager) Sorting Algorithms and other portions of the application
 
 ### Project Management
 Schedule:
@@ -44,7 +45,7 @@ We will meet weekly on Zoom.
 * Week 9 (4/12 - 4/16) - Finish project report and presentation
 
 Constraints:
-We currently do not have any regulatory or legal constraints. We also do not have any ethical or social concerns.
+We currently do not have any regulatory or legal constraints. We also do not have any ethical or social concerns. We will have to store passwords, but none of the information contained in our application will be private, and so there should not be a need for high security. 
 
 Resources:
 We will have access to the data we need. All three of us have family recipes that we can use to implement the application. We will also implement a base database of recipes for clients that do not have recipes to input, but would still like to use our application.
