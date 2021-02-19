@@ -19,7 +19,7 @@ In terms of the bare minimum, our system will allow for the inputting of recipes
 
 #### Tools and Testing
 In terms of technology, we will be using the coding language Swift. We will also be using XCode to code in and utilize the emulator. We will have an emulator that will allow us to test different aspects of our application. It will enable us to view the app as if it were on a phone. This would further allow us to input recipes and ingredients and test our algorithms.
-### Diagram for Architecture
+#### Diagram for Architecture
 ![plot](DiagramForProposalFixed.png)
 
 ### Team
