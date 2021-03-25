@@ -48,7 +48,7 @@
     </scenes>
     <resources>
         <namedColor name="AccentColor">
-            <color red="0.79314297440000003" green="0.50301980970000004" blue="0.97170311210000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.792156862745098" green="0.50196078431372548" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
     </resources>
 </document>
