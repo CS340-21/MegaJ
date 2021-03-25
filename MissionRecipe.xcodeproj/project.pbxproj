@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48541A29260BD6B60094AD9E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48541A28260BD6B60094AD9E /* Launch Screen.storyboard */; };
 		48E698482602B0130058350B /* MissionRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E698472602B0130058350B /* MissionRecipeApp.swift */; };
 		48E6984A2602B0130058350B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E698492602B0130058350B /* ContentView.swift */; };
 		48E6984C2602B0160058350B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E6984B2602B0160058350B /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48541A28260BD6B60094AD9E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		48E698442602B0130058350B /* MissionRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E698472602B0130058350B /* MissionRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRecipeApp.swift; sourceTree = "<group>"; };
 		48E698492602B0130058350B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				48E698472602B0130058350B /* MissionRecipeApp.swift */,
+				48541A28260BD6B60094AD9E /* Launch Screen.storyboard */,
 				48E698492602B0130058350B /* ContentView.swift */,
 				48E6984B2602B0160058350B /* Assets.xcassets */,
 				48E698502602B0160058350B /* Info.plist */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48541A29260BD6B60094AD9E /* Launch Screen.storyboard in Resources */,
 				48E6984F2602B0160058350B /* Preview Assets.xcassets in Resources */,
 				48E6984C2602B0160058350B /* Assets.xcassets in Resources */,
 			);
