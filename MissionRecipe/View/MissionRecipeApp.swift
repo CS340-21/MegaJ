@@ -34,7 +34,7 @@ struct AppView_Previews: PreviewProvider {
   static var previews: some View {
     MissionRecipeApp()
       .previewDevice("iPhone 11")
-      .environment(\.colorScheme, .dark)
+      .environment(\.colorScheme, .light)
   }
 }
 

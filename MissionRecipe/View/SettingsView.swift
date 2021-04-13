@@ -38,6 +38,6 @@ struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
     SettingsView()
       .previewDevice("iPhone 11 Pro")
-      .environment(\.colorScheme, .dark)
+      .environment(\.colorScheme, .light)
   }
 }

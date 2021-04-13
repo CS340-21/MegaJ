@@ -38,6 +38,6 @@ struct RecipesView_Previews: PreviewProvider {
   static var previews: some View {
     RecipesView()
       .previewDevice("iPhone 11 Pro")
-      .environment(\.colorScheme, .dark)
+      .environment(\.colorScheme, .light)
   }
 }
