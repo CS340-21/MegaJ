@@ -11,13 +11,7 @@ struct IngredientsView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 0) {
           // MARK: - HEADER
-          VStack(alignment: .center, spacing: 5) {
-            Image("background")
-              .resizable()
-              .scaledToFit()
-              .padding(.top)
-              .frame(width: 100, height: 100, alignment: .center)
-              .shadow(color: Color("BlackTransparentLight"), radius: 8, x: 0, y: 4)
+            VStack(alignment: .center, spacing: 5) {
             
             Text("Ingredients".uppercased())
               .font(.system(.title, design: .serif))
@@ -25,6 +19,10 @@ struct IngredientsView: View {
               .foregroundColor(Color("White"))
           }
           .padding()
+          .background(
+              Image("background")
+                  .edgesIgnoringSafeArea([.top])
+              )
         }
     }
 }

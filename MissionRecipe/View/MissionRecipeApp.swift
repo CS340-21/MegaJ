@@ -12,21 +12,18 @@ struct MissionRecipeApp: View {
     TabView {
       RecipesView()
         .tabItem({
-          Image("RecipeIcon")
-          Text("Recipes")
+            Image("RecipeIcon")
         })
       IngredientsView()
         .tabItem({
           Image("IngredientIcon")
-          Text("Ingredients")
         })
       SettingsView()
         .tabItem({
-          Image("SettingsIcon")
-          Text("Settings")
+            Image("SettingsIcon")
         })
     }
-    .accentColor(Color.primary)
+    .accentColor(Color.white)
   }
 }
 

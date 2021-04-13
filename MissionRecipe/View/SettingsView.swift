@@ -12,12 +12,6 @@ struct SettingsView: View {
         VStack(alignment: .center, spacing: 0) {
           // MARK: - HEADER
           VStack(alignment: .center, spacing: 5) {
-            Image("background")
-              .resizable()
-              .scaledToFit()
-              .padding(.top)
-              .frame(width: 100, height: 100, alignment: .center)
-              .shadow(color: Color("BlackTransparentLight"), radius: 8, x: 0, y: 4)
             
             Text("Settings".uppercased())
               .font(.system(.title, design: .serif))
@@ -27,9 +21,8 @@ struct SettingsView: View {
           .padding()
           .background(
             Image("background")
-              .resizable()
-              .aspectRatio(contentMode: .fill)
-           )
+                .edgesIgnoringSafeArea([.top])
+            )
         }
     }
 }

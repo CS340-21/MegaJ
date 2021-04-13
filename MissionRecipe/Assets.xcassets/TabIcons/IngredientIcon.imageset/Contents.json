@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "icons8-tomato-and-garlic-64.png",
+      "filename" : "icons8-ingredients-64.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-128.png",
+      "filename" : "icons8-ingredients-98.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -23,12 +23,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-131.png",
+      "filename" : "icons8-ingredients-52.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-tomato-and-garlic-65.png",
+      "filename" : "icons8-ingredients-65.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -39,7 +39,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-129.png",
+      "filename" : "icons8-ingredients-97.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -50,12 +50,12 @@
           "value" : "dark"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-132.png",
+      "filename" : "icons8-ingredients-51.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-tomato-and-garlic-66.png",
+      "filename" : "icons8-ingredients-66.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -66,7 +66,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-130.png",
+      "filename" : "icons8-ingredients-96.png",
       "idiom" : "universal",
       "scale" : "3x"
     },
@@ -77,7 +77,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "icons8-tomato-and-garlic-133.png",
+      "filename" : "icons8-ingredients-50.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
