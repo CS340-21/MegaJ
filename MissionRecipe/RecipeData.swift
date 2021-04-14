@@ -3,7 +3,7 @@ import SwiftUI
 // MARK: - RECIPE DATA
 
 let recipesData: [Recipe] = [
-  Recipe(
+    Recipe(
     title: "Baked Buffalo Chicken Nuggets",
     headline: "Main Dish - Chicken",
     image: "BuffaloNuggets",
@@ -28,5 +28,37 @@ let recipesData: [Recipe] = [
         "3 tbsp Frank's Hot Sauce (or Tabasco if you want it hot",
         "1 lb skinless chicken breast (cut into 32 small bite sized pieces)"
     ]
-  )
+    ),
+    Recipe(
+        title: "Basil-Parmesan Salmon",
+        headline: "Main Dish - Salmon",
+        image: "AirFrySalmon",
+        serves: 4,
+        prepTime: 5,
+        cookTime: 15,
+        instructions: [
+            "Air Fryer Directions:",
+            "1. Preheat air fryer to 400°F. Spritz the basket with olive oil.",
+            "2. Season the salmon with lemon juice, salt and pepper.",
+            "3. Mix the mayonnaise with basil and 2 tablespoons Parmesan cheese in a small bowl.",
+            "4. Spread completely over the top of salmon. Sprinkle remaining Parmesan cheese on top.",
+            "5. In batches, air fry 7 minutes, or longer depending on thickness of salmon.",
+            "Oven Directions:",
+            "1. Preheat the oven to 425°F. Spritz a sheet pan with olive oil.",
+            "2. Season the salmon with lemon juice, salt and pepper.",
+            "3. Mix the mayonnaise with basil and 2 tablespoons Parmesan cheese in a small bowl.",
+            "4. Spread completely over the top of salmon. Sprinkle remaining Parmesan cheese on top.",
+            "5. Bake 8 to 12 minutes, depending on thickness of the salmon."
+        ],
+        ingredients: [
+            "olive oil spray",
+            "4 salmon filets, skin removed (about 5 ounces each)",
+            "1/2 lemon",
+            "1/4 tsp kosher salt",
+            "freshly ground black pepper",
+            "3 tbsp mayonnaise",
+            "6 fresh basil leaves (minced, plus more for garnish)",
+            "3 tbsp grated parmesan or romano cheese"
+        ]
+    )
 ]

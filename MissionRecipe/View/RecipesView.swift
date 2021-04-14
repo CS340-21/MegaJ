@@ -8,21 +8,25 @@
 import SwiftUI
 
 struct RecipesView: View {
+    var recipes: [Recipe] = recipesData
     var body: some View {
-        VStack(alignment: .center, spacing: 0) {
-          // MARK: - HEADER
-          VStack(alignment: .center, spacing: 5) {
-            Text("Recipes".uppercased())
-              .font(.system(.title, design: .serif))
-              .fontWeight(.bold)
-              .foregroundColor(Color("White"))
-          }
-          .padding()
-          .background(
-            Image("background")
-                .edgesIgnoringSafeArea([.top])
-            )
+    ScrollView(.vertical, showsIndicators: false) {
+            Text("Recipes")
+                .fontWeight(.bold)
+                .modifier(TitleModifier())
+            VStack(alignment: .center, spacing: 10) {
+            ForEach(recipes) { item in
+                RecipeCardView(recipe: item)
+            }
+            }
+            .frame(maxWidth: 640)
+            .padding(.horizontal)
         }
+    .padding(.bottom, 10)
+    .background(
+        Image("background")
+            .edgesIgnoringSafeArea(.all)
+    )
     }
 }
 

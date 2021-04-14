@@ -28,7 +28,7 @@ struct RecipeDetailView: View {
             .font(.system(.largeTitle, design: .serif))
             .fontWeight(.bold)
             .multilineTextAlignment(.center)
-            .foregroundColor(Color("ColorGreenAdaptive"))
+            .foregroundColor(Color("Teal"))
             .padding(.top, 10)
           
           // COOKING
