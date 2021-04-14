@@ -57,13 +57,13 @@ struct RecipeDetailView: View {
             .modifier(TitleModifier())
           
           ForEach(recipe.instructions, id: \.self) { item in
-            VStack(alignment: .center, spacing: 5) {
+            VStack(alignment: .center, spacing: 0) {
               Image(systemName: "chevron.down.circle")
                 .resizable()
-                .frame(width: 42, height: 42, alignment: .center)
+                .frame(width: 40, height: 10, alignment: .center)
                 .imageScale(.large)
                 .font(Font.title.weight(.ultraLight))
-                .foregroundColor(Color("ColorGreenAdaptive"))
+                .foregroundColor(Color("White"))
               
               Text(item)
                 .lineLimit(nil)

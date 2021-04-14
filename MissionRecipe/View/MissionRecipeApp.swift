@@ -12,7 +12,7 @@ struct MissionRecipeApp: View {
     TabView {
       RecipesView()
         .tabItem({
-            Image("RecipeIcon")
+          Image("RecipeIcon")
         })
       IngredientsView()
         .tabItem({
