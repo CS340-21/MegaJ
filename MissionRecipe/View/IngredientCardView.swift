@@ -6,6 +6,7 @@ struct IngredientCardView: View {
   var ingredient: Ingredient
   var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
   @State private var showModal: Bool = false
+  @State private var removeIngredient: Bool = false
   
   var body: some View {
     VStack(alignment: .leading, spacing: 0) {
@@ -42,7 +43,9 @@ struct IngredientCardView: View {
     .shadow(color: Color("BlackTransparentLight"), radius: 8, x: 0, y: 0)
     .onTapGesture {
       self.hapticImpact.impactOccurred()
-      self.showModal = true
+        if let index = ingredientData.firstIndex(of: ingredient) {
+            ingredientData.remove(at: index);
+        }
     }
   }
 }

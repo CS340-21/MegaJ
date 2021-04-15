@@ -9,7 +9,7 @@ import SwiftUI
 
 // MARK: - RECIPE MODEL
 
-struct Ingredient: Identifiable {
+struct Ingredient: Equatable, Identifiable {
   var id = UUID()
   var name: String
   var expiration: Int

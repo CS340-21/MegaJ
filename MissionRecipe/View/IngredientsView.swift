@@ -10,6 +10,7 @@ import SwiftUI
 struct IngredientsView: View {
     var ingredients: [Ingredient] = ingredientData
     @State private var showingAddIngredient: Bool = false
+    @State private var Refresh: Bool = false
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {

@@ -39,8 +39,10 @@ struct AddIngredientView: View {
               if self.name != "" {
                 let ingred = Ingredient(name: self.name,expiration: Int(self.daysTillExp) ?? 0,type: self.type, comments: self.comments);
                 ingredientData.append(ingred);
+                print(ingredientData)
               }
-            }) {
+            })
+            {
               Text("Save")
                 .font(.system(size: 24, weight: .bold, design: .default))
                 .padding()
