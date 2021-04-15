@@ -1,9 +1,6 @@
 import SwiftUI
 
 struct AddIngredientView: View {
-    @State private var errorShowing: Bool = false
-    @State private var errorTitle: String = ""
-    @State private var errorMessage: String = ""
     @State private var name: String = ""
     @State private var type: String = ""
     @State private var daysTillExp: String = ""
@@ -12,7 +9,7 @@ struct AddIngredientView: View {
       NavigationView {
         VStack {
           VStack(alignment: .leading, spacing: 20) {
-            Text("Input Ingredient Below")
+            Text("Ingredient Information")
               .font(.system(.title, design: .serif))
               .fontWeight(.bold)
               .foregroundColor(Color("Teal"))
@@ -27,7 +24,7 @@ struct AddIngredientView: View {
               .background(Color(UIColor.tertiarySystemFill))
               .cornerRadius(9)
               .font(.system(size: 24, weight: .bold, design: .default))
-            TextField("Date", text: $daysTillExp)
+            TextField("Days Till Expiration", text: $daysTillExp)
                 .padding()
                 .background(Color(UIColor.tertiarySystemFill))
                 .cornerRadius(9)
@@ -42,17 +39,6 @@ struct AddIngredientView: View {
               if self.name != "" {
                 let ingred = Ingredient(name: self.name,expiration: Int(self.daysTillExp) ?? 0,type: self.type, comments: self.comments);
                 ingredientData.append(ingred);
-                do {
-                    try ingredientData.append(ingred)
-                  // print("New todo: \(todo.name ?? ""), Priority: \(todo.priority ?? "")")
-                } catch {
-                  print(error)
-                }
-              } else {
-                self.errorShowing = true
-                self.errorTitle = "Invalid Name"
-                self.errorMessage = "Make sure to enter something for\nthe new todo item."
-                return
               }
             }) {
               Text("Save")

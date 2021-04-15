@@ -9,14 +9,25 @@ struct IngredientCardView: View {
   
   var body: some View {
     VStack(alignment: .leading, spacing: 0) {
-      VStack(alignment: .leading, spacing: 12) {
+      HStack(alignment: .center, spacing: 12) {
         // TITLE
         Text(ingredient.name)
           .font(.system(.title, design: .serif))
           .fontWeight(.bold)
           .foregroundColor(Color("Teal"))
           .lineLimit(1)
-        
+        // HEADLINE
+        Text(ingredient.type)
+          .font(.system(.body, design: .serif))
+          .foregroundColor(Color.gray)
+          .italic()
+      }
+      .padding()
+      VStack(alignment: .leading, spacing: 0) {
+        Text("Days Till Expiration: \(ingredient.expiration)")
+          .font(.system(.body, design: .serif))
+          .foregroundColor(Color("Purple"))
+          .italic()
         // HEADLINE
         Text(ingredient.comments)
           .font(.system(.body, design: .serif))
