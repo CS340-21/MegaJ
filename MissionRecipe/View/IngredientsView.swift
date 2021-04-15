@@ -15,6 +15,17 @@ struct IngredientsView: View {
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             HStack(alignment: .center, spacing: 2) {
+                Button(action: {
+                    self.showingAddIngredient.toggle();
+                    print(ingredients)
+                }) {
+                  Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .background(Circle().fill(Color("ColorBase")))
+                    .frame(width: 48, height: 48, alignment: .center)
+                } //: BUTTON
+                  .accentColor(Color("Teal"))
                 Text("Ingredients")
                     .fontWeight(.bold)
                     .modifier(TitleModifier())
@@ -37,17 +48,6 @@ struct IngredientsView: View {
                 }
                 .frame(maxWidth: 640)
                 .padding(.horizontal)
-            Button(action: {
-                self.showingAddIngredient.toggle();
-                print(ingredients)
-            }) {
-              Image(systemName: "plus.circle.fill")
-                .resizable()
-                .scaledToFit()
-                .background(Circle().fill(Color("ColorBase")))
-                .frame(width: 48, height: 48, alignment: .center)
-            } //: BUTTON
-              .accentColor(Color("Teal"))
             }
         .padding(.bottom, 10)
         .background(
