@@ -14,11 +14,24 @@ struct IngredientsView: View {
     
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
+            HStack(alignment: .center, spacing: 2) {
                 Text("Ingredients")
                     .fontWeight(.bold)
                     .modifier(TitleModifier())
+                Button(action: {
+                    ingredients = ingredientData;
+                    print(ingredients)
+                }) {
+                    Image(systemName: "bonjour")
+                        .resizable()
+                        .scaledToFit()
+                        .background(Circle().fill(Color("ColorBase")))
+                        .frame(width: 48, height: 48, alignment: .center)
+                } //: BUTTON
+                .accentColor(Color("Teal"))
+            }
                 VStack(alignment: .center, spacing: 10) {
-                ForEach(ingredients) { item in
+                    ForEach(ingredients) { item in
                     IngredientCardView(ingredient: item)
                 }
                 }
@@ -26,7 +39,6 @@ struct IngredientsView: View {
                 .padding(.horizontal)
             Button(action: {
                 self.showingAddIngredient.toggle();
-                ingredients = ingredientData;
                 print(ingredients)
             }) {
               Image(systemName: "plus.circle.fill")

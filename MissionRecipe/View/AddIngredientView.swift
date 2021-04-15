@@ -41,8 +41,6 @@ struct AddIngredientView: View {
                 let ingred = Ingredient(name: self.name,expiration: Int(self.daysTillExp) ?? 0,type: self.type, comments: self.comments);
                 ingredientData.append(ingred);
                 self.presentationMode.wrappedValue.dismiss();
-                
-                print(ingredientData)
               }
             })
             {
