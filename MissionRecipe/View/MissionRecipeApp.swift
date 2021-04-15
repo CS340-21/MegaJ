@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MissionRecipeApp: View {
+    @Environment(\.managedObjectContext) var managedObjectContext
+    
   var body: some View {
     TabView {
       RecipesView()

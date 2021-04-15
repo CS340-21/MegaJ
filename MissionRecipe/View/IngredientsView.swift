@@ -8,23 +8,41 @@
 import SwiftUI
 
 struct IngredientsView: View {
+    var ingredients: [Ingredient] = ingredientData
+    @State private var showingAddIngredient: Bool = false
+    
     var body: some View {
-        VStack(alignment: .center, spacing: 0) {
-          // MARK: - HEADER
-            VStack(alignment: .center, spacing: 5) {
-            
-            Text("Ingredients".uppercased())
-              .font(.system(.title, design: .serif))
-              .fontWeight(.bold)
-              .foregroundColor(Color("White"))
-          }
-          .padding()
-          .background(
-              Image("background")
-                  .edgesIgnoringSafeArea([.top])
-              )
+        ScrollView(.vertical, showsIndicators: false) {
+                Text("Ingredients")
+                    .fontWeight(.bold)
+                    .modifier(TitleModifier())
+                VStack(alignment: .center, spacing: 10) {
+                ForEach(ingredients) { item in
+                    IngredientCardView(ingredient: item)
+                }
+                }
+                .frame(maxWidth: 640)
+                .padding(.horizontal)
+            Button(action: {
+              self.showingAddIngredient.toggle()
+            }) {
+              Image(systemName: "plus.circle.fill")
+                .resizable()
+                .scaledToFit()
+                .background(Circle().fill(Color("ColorBase")))
+                .frame(width: 48, height: 48, alignment: .center)
+            } //: BUTTON
+              .accentColor(Color("Teal"))
+            }
+        .padding(.bottom, 10)
+        .background(
+            Image("background")
+                .edgesIgnoringSafeArea(.all)
+        )
+        .sheet(isPresented: self.$showingAddIngredient) {
+          AddIngredientView()
         }
-    }
+        }
 }
 
 struct IngredientsView_Previews: PreviewProvider {

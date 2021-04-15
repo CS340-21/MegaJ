@@ -13,5 +13,6 @@ struct Ingredient: Identifiable {
   var id = UUID()
   var name: String
   var expiration: Int
-  var comments: [String]
+  var type: String
+  var comments: String
 }
