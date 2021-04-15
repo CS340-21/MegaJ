@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct IngredientsView: View {
-    var ingredients: [Ingredient] = ingredientData
+    @State var ingredients: [Ingredient] = ingredientData
     @State private var showingAddIngredient: Bool = false
     @State private var Refresh: Bool = false
     
@@ -25,7 +25,9 @@ struct IngredientsView: View {
                 .frame(maxWidth: 640)
                 .padding(.horizontal)
             Button(action: {
-              self.showingAddIngredient.toggle()
+                self.showingAddIngredient.toggle();
+                ingredients = ingredientData;
+                print(ingredients)
             }) {
               Image(systemName: "plus.circle.fill")
                 .resizable()

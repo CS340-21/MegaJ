@@ -45,6 +45,7 @@ struct IngredientCardView: View {
       self.hapticImpact.impactOccurred()
         if let index = ingredientData.firstIndex(of: ingredient) {
             ingredientData.remove(at: index);
+            
         }
     }
   }

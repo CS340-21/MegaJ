@@ -5,6 +5,7 @@ struct AddIngredientView: View {
     @State private var type: String = ""
     @State private var daysTillExp: String = ""
     @State private var comments: String = ""
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
       NavigationView {
         VStack {
@@ -39,6 +40,8 @@ struct AddIngredientView: View {
               if self.name != "" {
                 let ingred = Ingredient(name: self.name,expiration: Int(self.daysTillExp) ?? 0,type: self.type, comments: self.comments);
                 ingredientData.append(ingred);
+                self.presentationMode.wrappedValue.dismiss();
+                
                 print(ingredientData)
               }
             })
