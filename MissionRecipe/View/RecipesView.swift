@@ -8,12 +8,33 @@
 import SwiftUI
 
 struct RecipesView: View {
-    var recipes: [Recipe] = recipesData
+    @State var recipes: [Recipe] = recipesData
+    @State private var showingAddRecipe: Bool = false
     var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
+        HStack(alignment: .center, spacing: 15) {
+            Button(action: {
+                self.showingAddRecipe.toggle();
+            }) {
+              Image("plus")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 50, height: 50, alignment: .center)
+            } //: BUTTON
+              .accentColor(Color("Teal"))
             Text("Recipes")
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
+            Button(action: {
+                recipes = recipesData;
+            }) {
+                Image("refresh")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50, height: 50, alignment: .center)
+            } //: BUTTON
+            .accentColor(Color("Teal"))
+        }
             VStack(alignment: .center, spacing: 10) {
             ForEach(recipes) { item in
                 RecipeCardView(recipe: item)
@@ -27,6 +48,9 @@ struct RecipesView: View {
         Image("background")
             .edgesIgnoringSafeArea(.all)
     )
+    .sheet(isPresented: self.$showingAddRecipe) {
+      AddRecipeView()
+    }
     }
 }
 

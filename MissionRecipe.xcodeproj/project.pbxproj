@@ -24,6 +24,7 @@
 		75BE635A262722A100B83AD4 /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE6359262722A100B83AD4 /* RecipeCardView.swift */; };
 		75BE635D262722EB00B83AD4 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE635C262722EB00B83AD4 /* RecipeDetailView.swift */; };
 		75BE63602627233500B83AD4 /* RecipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE635F2627233500B83AD4 /* RecipeCookingView.swift */; };
+		75BE63642629D67900B83AD4 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BE63632629D67900B83AD4 /* AddRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		75BE6359262722A100B83AD4 /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
 		75BE635C262722EB00B83AD4 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		75BE635F2627233500B83AD4 /* RecipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCookingView.swift; sourceTree = "<group>"; };
+		75BE63632629D67900B83AD4 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				75BE633B2625F95C00B83AD4 /* IngredientsView.swift */,
 				75BC34C52628B9000058262E /* IngredientCardView.swift */,
 				75BC34A52628A18D0058262E /* AddIngredientView.swift */,
+				75BE63632629D67900B83AD4 /* AddRecipeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				75BE633F2625F96A00B83AD4 /* RecipesView.swift in Sources */,
 				75BE633C2625F95C00B83AD4 /* IngredientsView.swift in Sources */,
 				75BC34A62628A18D0058262E /* AddIngredientView.swift in Sources */,
+				75BE63642629D67900B83AD4 /* AddRecipeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

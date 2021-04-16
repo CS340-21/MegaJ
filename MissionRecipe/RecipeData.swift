@@ -2,7 +2,7 @@ import SwiftUI
 
 // MARK: - RECIPE DATA
 
-let recipesData: [Recipe] = [
+var recipesData: [Recipe] = [
     Recipe(
     title: "Baked Buffalo Chicken Nuggets",
     headline: "Main Dish - Chicken",
