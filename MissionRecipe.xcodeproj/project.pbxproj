@@ -114,15 +114,15 @@
 			isa = PBXGroup;
 			children = (
 				48E698472602B0130058350B /* MissionRecipeApp.swift */,
-				75BE633E2625F96A00B83AD4 /* RecipesView.swift */,
 				75BE63372625F94500B83AD4 /* SettingsView.swift */,
+				75BE633E2625F96A00B83AD4 /* RecipesView.swift */,
 				75BE6359262722A100B83AD4 /* RecipeCardView.swift */,
 				75BE635C262722EB00B83AD4 /* RecipeDetailView.swift */,
 				75BE635F2627233500B83AD4 /* RecipeCookingView.swift */,
+				75BE63632629D67900B83AD4 /* AddRecipeView.swift */,
 				75BE633B2625F95C00B83AD4 /* IngredientsView.swift */,
 				75BC34C52628B9000058262E /* IngredientCardView.swift */,
 				75BC34A52628A18D0058262E /* AddIngredientView.swift */,
-				75BE63632629D67900B83AD4 /* AddRecipeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
