@@ -17,6 +17,8 @@ struct DiscussionView: View {
               .font(.system(.title, design: .serif))
               .fontWeight(.bold)
               .foregroundColor(Color("White"))
+            Image("WIP")
+              .scaledToFit()
           }
           .padding()
           .background(
