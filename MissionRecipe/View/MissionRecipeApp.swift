@@ -20,6 +20,10 @@ struct MissionRecipeApp: View {
         .tabItem({
           Image("IngredientIcon")
         })
+      DiscussionView()
+        .tabItem({
+          Image("DiscussionIcon")
+        })
       SettingsView()
         .tabItem({
             Image("SettingsIcon")
