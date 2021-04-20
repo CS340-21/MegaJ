@@ -12,20 +12,11 @@ struct RecipesView: View {
     @State private var showingAddRecipe: Bool = false
     var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
-        HStack(alignment: .center, spacing: 15) {
-            Button(action: {
-                self.showingAddRecipe.toggle();
-            }) {
-              Image("plus")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 50, height: 50, alignment: .center)
-            } //: BUTTON
-              .accentColor(Color("Teal"))
+    HStack(alignment: .center, spacing: 15) {
             Text("Recipes")
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
-            Button(action: {
+           Button(action: {
                 recipes = recipesData;
             }) {
                 Image("refresh")
@@ -34,7 +25,7 @@ struct RecipesView: View {
                     .frame(width: 50, height: 50, alignment: .center)
             } //: BUTTON
             .accentColor(Color("Teal"))
-        }
+            }
             VStack(alignment: .center, spacing: 10) {
             ForEach(recipes) { item in
                 RecipeCardView(recipe: item)
@@ -48,9 +39,10 @@ struct RecipesView: View {
         Image("background")
             .edgesIgnoringSafeArea(.all)
     )
-    .sheet(isPresented: self.$showingAddRecipe) {
+  /*  .sheet(isPresented: self.$showingAddRecipe) {
       AddRecipeView()
-    }
+    }*/
+        
     }
 }
 

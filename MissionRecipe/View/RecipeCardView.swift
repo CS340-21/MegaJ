@@ -46,6 +46,7 @@ struct RecipeCardView: View {
     .onTapGesture {
       self.hapticImpact.impactOccurred()
       self.showModal = true
+        
     }
     .sheet(isPresented: self.$showModal) {
       RecipeDetailView(recipe: self.recipe)
