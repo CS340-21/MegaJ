@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct IngredientsView: View {
-    @State var ingredients: [Ingredient] = ingredientData
+    @State var ingredients: [Ingredient] = ingredientData.sorted()
     @State private var showingAddIngredient: Bool = false
     @State private var Refresh: Bool = false
     
@@ -29,7 +29,7 @@ struct IngredientsView: View {
                     .fontWeight(.bold)
                     .modifier(TitleModifier())
                 Button(action: {
-                    ingredients = ingredientData;
+                    ingredients = ingredientData.sorted();
                     print(ingredients)
                 }) {
                     Image("refresh")

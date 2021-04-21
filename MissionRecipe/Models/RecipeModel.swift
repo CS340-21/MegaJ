@@ -9,7 +9,11 @@ import SwiftUI
 
 // MARK: - RECIPE MODEL
 
-struct Recipe: Identifiable {
+struct Recipe: Identifiable, Comparable {
+    static func < (lhs: Recipe, rhs: Recipe) -> Bool {
+        lhs.title < rhs.title
+    }
+    
   var id = UUID()
   var title: String
   var headline: String

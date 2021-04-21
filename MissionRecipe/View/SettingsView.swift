@@ -13,10 +13,16 @@ struct SettingsView: View {
           // MARK: - HEADER
           VStack(alignment: .center, spacing: 5) {
             
-            Text("Settings".uppercased())
-              .font(.system(.title, design: .serif))
-              .fontWeight(.bold)
-              .foregroundColor(Color("White"))
+            HStack {
+                
+                Text("Settings".uppercased())
+                  .font(.system(.title, design: .serif))
+                  .fontWeight(.bold)
+                    .foregroundColor(Color("White"))
+                    .frame(width: 300.0, height: 50.0)
+                    .position(x: 169 ,y: 0)
+            }
+
           }
           .padding()
           .background(

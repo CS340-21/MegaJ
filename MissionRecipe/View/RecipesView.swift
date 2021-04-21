@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RecipesView: View {
-    @State var recipes: [Recipe] = recipesData
+    @State var recipes: [Recipe] = recipesData.sorted()
     @State private var showingAddRecipe: Bool = false
     var body: some View {
     ScrollView(.vertical, showsIndicators: false) {
@@ -17,7 +17,7 @@ struct RecipesView: View {
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
            Button(action: {
-                recipes = recipesData;
+            recipes = recipesData.sorted();
             }) {
                 Image("refresh")
                     .resizable()

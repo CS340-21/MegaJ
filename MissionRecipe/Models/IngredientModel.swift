@@ -9,7 +9,11 @@ import SwiftUI
 
 // MARK: - RECIPE MODEL
 
-struct Ingredient: Equatable, Identifiable {
+struct Ingredient: Equatable, Identifiable, Comparable {
+    static func < (lhs: Ingredient, rhs: Ingredient) -> Bool {
+        lhs.name < rhs.name
+    }
+    
   var id = UUID()
   var name: String
   var expiration: Int
