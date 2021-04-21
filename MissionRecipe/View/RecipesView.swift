@@ -17,7 +17,7 @@ struct RecipesView: View {
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
            Button(action: {
-            recipes = recipesData.sorted();
+            recipes.sort(by: sorterforRecipe)
             }) {
                 Image("refresh")
                     .resizable()
@@ -61,4 +61,24 @@ struct TitleModifier: ViewModifier {
       .foregroundColor(Color("Teal"))
       .padding(8)
   }
+}
+
+func sorterforRecipe(this:Recipe, that:Recipe) -> Bool {
+    var count: Int = 0;
+    var count2: Int = 0;
+    for item in this.ingredients {
+        for item2 in ingredientData {
+            if item == item2.name {
+                count = count + 1;
+            }
+        }
+    }
+    for item in that.ingredients {
+        for item2 in ingredientData {
+            if item == item2.name {
+                count2 = count2 + 1;
+            }
+        }
+    }
+    return count > count2
 }

@@ -11,7 +11,7 @@ import SwiftUI
 
 struct Ingredient: Equatable, Identifiable, Comparable {
     static func < (lhs: Ingredient, rhs: Ingredient) -> Bool {
-        lhs.name < rhs.name
+        lhs.type < rhs.type
     }
     
   var id = UUID()

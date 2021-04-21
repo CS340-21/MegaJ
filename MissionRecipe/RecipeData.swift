@@ -52,7 +52,7 @@ var recipesData: [Recipe] = [
         ],
         ingredients: [
             "olive oil spray",
-            "4 salmon filets, skin removed (about 5 ounces each)",
+            "Salmon",
             "1/2 lemon",
             "1/4 tsp kosher salt",
             "freshly ground black pepper",
