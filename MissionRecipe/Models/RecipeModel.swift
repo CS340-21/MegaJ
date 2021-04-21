@@ -21,6 +21,7 @@ struct Recipe: Identifiable, Comparable {
   var serves: Int
   var prepTime: Int
   var cookTime: Int
+  var numMatch: Int
   var instructions: [String]
   var ingredients: [String]
 }

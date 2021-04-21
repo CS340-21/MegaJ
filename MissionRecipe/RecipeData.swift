@@ -10,6 +10,7 @@ var recipesData: [Recipe] = [
     serves: 4,
     prepTime: 10,
     cookTime: 15,
+    numMatch: 0,
     instructions: [
         "Preheat air fryer to 400°F.",
         "In a shallow bowl combine one egg and 3 tablespoons of hot sauce.",
@@ -38,6 +39,7 @@ var recipesData: [Recipe] = [
         serves: 4,
         prepTime: 5,
         cookTime: 15,
+        numMatch: 0,
         instructions: [
             "Air Fryer Directions:",
             "1. Preheat air fryer to 400°F. Spritz the basket with olive oil.",

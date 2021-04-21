@@ -17,7 +17,9 @@ struct RecipesView: View {
                 .fontWeight(.bold)
                 .modifier(TitleModifier())
            Button(action: {
-            recipes.sort(by: sorterforRecipe)
+            recipes.sort(by: sorterforRecipe);
+            recipes = recipesData;
+            recipes.sort(by: sorterforRecipe);
             }) {
                 Image("refresh")
                     .resizable()
@@ -63,7 +65,7 @@ struct TitleModifier: ViewModifier {
   }
 }
 
-func sorterforRecipe(this:Recipe, that:Recipe) -> Bool {
+func sorterforRecipe(this: Recipe, that: Recipe) -> Bool {
     var count: Int = 0;
     var count2: Int = 0;
     for item in this.ingredients {
@@ -73,12 +75,18 @@ func sorterforRecipe(this:Recipe, that:Recipe) -> Bool {
             }
         }
     }
+    if let found = recipesData.enumerated().first(where:{$0.element.title == this.title}){
+        recipesData[found.offset].numMatch = count;
+    }
     for item in that.ingredients {
         for item2 in ingredientData {
             if item == item2.name {
                 count2 = count2 + 1;
             }
         }
+    }
+    if let found = recipesData.enumerated().first(where:{$0.element.title == that.title}){
+        recipesData[found.offset].numMatch = count2;
     }
     return count > count2
 }
