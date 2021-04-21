@@ -62,6 +62,9 @@ struct AddRecipeView: View {
             // MARK: - SAVE BUTTON
             Button(action: {
               if self.title != "" {
+                if(self.image == ""){
+                    self.image = "Icon";
+                }
                 let instructionstemp = instructions.components(separatedBy: ",");
                 let ingredientstemp = ingredients.components(separatedBy: ",");
                 let recipe = Recipe(title: self.title, headline: self.headline, image: self.image, serves: Int(self.serves) ?? 0, prepTime: Int(self.prepTime) ?? 0, cookTime: Int(self.cookTime) ?? 0, numMatch: 0, instructions: instructionstemp, ingredients: ingredientstemp);
