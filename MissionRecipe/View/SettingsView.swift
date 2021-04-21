@@ -18,6 +18,38 @@ struct SettingsView: View {
                         Section(header: Text("Profile")){
                             TextField("Username", text: $username)
                         }
+                        Section(header: Text("Application")) {
+                            HStack {
+                              Text("Product").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("Mission Recipe")
+                            }
+                            HStack {
+                              Text("Compatibility").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("iPhone & iPad")
+                            }
+                            HStack {
+                              Text("Developer").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("Josh Gray, Jaidin Jackson, Megan Stanton")
+                            }
+                            HStack {
+                              Text("Designer").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("Josh Gray, Jaidin Jackson, Megan Stanton")
+                            }
+                            HStack {
+                              Text("Website").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("https://github.com/CS340-21/MegaJ")
+                            }
+                            HStack {
+                              Text("Version").foregroundColor(Color.gray)
+                              Spacer()
+                              Text("1.0.0")
+                            }
+                        }
                     }
                     .navigationBarTitle("Settings")
                 
