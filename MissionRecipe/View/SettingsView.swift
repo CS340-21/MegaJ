@@ -30,12 +30,12 @@ struct SettingsView: View {
                               Text("iPhone & iPad")
                             }
                             HStack {
-                              Text("Developer").foregroundColor(Color.gray)
+                              Text("Developers").foregroundColor(Color.gray)
                               Spacer()
                               Text("Josh Gray, Jaidin Jackson, Megan Stanton")
                             }
                             HStack {
-                              Text("Designer").foregroundColor(Color.gray)
+                              Text("Designers").foregroundColor(Color.gray)
                               Spacer()
                               Text("Josh Gray, Jaidin Jackson, Megan Stanton")
                             }
