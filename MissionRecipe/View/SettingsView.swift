@@ -8,30 +8,22 @@
 import SwiftUI
 
 struct SettingsView: View {
+    
+    @State var username: String = ""
+    
+    
     var body: some View {
-        VStack(alignment: .center, spacing: 0) {
-          // MARK: - HEADER
-          VStack(alignment: .center, spacing: 5) {
-            
-            HStack {
+        NavigationView {
+                    Form {
+                        Section(header: Text("Profile")){
+                            TextField("Username", text: $username)
+                        }
+                    }
+                    .navigationBarTitle("Settings")
                 
-                Text("Settings".uppercased())
-                  .font(.system(.title, design: .serif))
-                  .fontWeight(.bold)
-                    .foregroundColor(Color("White"))
-                    .frame(width: 300.0, height: 50.0)
-                    .position(x: 169 ,y: 0)
-            }
-
-          }
-          .padding()
-          .background(
-            Image("background")
-                .edgesIgnoringSafeArea([.top])
-            )
         }
     }
-}
+    
 
 struct SettingsView_Previews: PreviewProvider {
   static var previews: some View {
@@ -39,4 +31,5 @@ struct SettingsView_Previews: PreviewProvider {
       .previewDevice("iPhone 11 Pro")
       .environment(\.colorScheme, .light)
   }
+}
 }
