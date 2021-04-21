@@ -125,7 +125,6 @@
 				75BE633B2625F95C00B83AD4 /* IngredientsView.swift */,
 				75BC34C52628B9000058262E /* IngredientCardView.swift */,
 				75BC34A52628A18D0058262E /* AddIngredientView.swift */,
-				75BE63632629D67900B83AD4 /* AddRecipeView.swift */,
 				7563E5B9262F7F13001C7640 /* DiscussionView.swift */,
 			);
 			path = View;
