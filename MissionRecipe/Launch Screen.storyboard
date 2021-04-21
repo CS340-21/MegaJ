@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="bMk-6g-Mht">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="bMk-6g-Mht">
                                 <rect key="frame" x="-38" y="-129" width="621" height="1104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -55,6 +55,6 @@
     </scenes>
     <resources>
         <image name="Icon" width="50" height="50"/>
-        <image name="Image" width="621" height="1104"/>
+        <image name="background" width="621" height="1104"/>
     </resources>
 </document>
