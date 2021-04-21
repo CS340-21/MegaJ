@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "icons8-settings-50.png",
+      "filename" : "icons8-settings-96.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -12,7 +12,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-settings-64.png",
+      "filename" : "icons8-settings-97.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -39,7 +39,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-settings-96.png",
+      "filename" : "icons8-settings-98.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
@@ -66,7 +66,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "icons8-settings-256.png",
+      "filename" : "icons8-settings-99.png",
       "idiom" : "universal",
       "scale" : "3x"
     },

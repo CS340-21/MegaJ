@@ -1,8 +1,19 @@
 {
   "images" : [
     {
-      "filename" : "icons8-calendar-plus-64.png",
-      "idiom" : "universal"
+      "filename" : "icons8-book-reading-97.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icons8-book-reading-96.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icons8-book-reading-98.png",
+      "idiom" : "universal",
+      "scale" : "3x"
     }
   ],
   "info" : {
