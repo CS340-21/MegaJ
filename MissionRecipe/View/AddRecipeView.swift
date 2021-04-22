@@ -70,6 +70,14 @@ struct AddRecipeView: View {
                 let recipe = Recipe(title: self.title, headline: self.headline, image: self.image, serves: Int(self.serves) ?? 0, prepTime: Int(self.prepTime) ?? 0, cookTime: Int(self.cookTime) ?? 0, numMatch: 0, instructions: instructionstemp, ingredients: ingredientstemp);
                 recipesData.append(recipe);
                 self.presentationMode.wrappedValue.dismiss();
+                instructions = "";
+                ingredients = "";
+                cookTime = "";
+                prepTime = "";
+                serves = "";
+                image = "";
+                headline = "";
+                title = "";
               }
             })
             {
