@@ -31,10 +31,10 @@ We were able to utilize XCode’s emulation feature to test our application. XCo
 ![](DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
-<img src="RecipeBefore.png" width=300><img src="Images/RecipeInput.png" width=300><img src="RecipeAfter.png" width=300>
+<img src="Images/RecipeBefore.png" width=300><img src="Images/RecipeInput.png" width=300><img src="Images/RecipeAfter.png" width=300>
 
 #### Test 2: Inputting Ingredients
-<img src="IngredientBefore.png" width=300><img src="IngredientInput.png" width=300><img src="IngredientAfter.png" width=300>
+<img src="Images/IngredientBefore.png" width=300><img src="Images/IngredientInput.png" width=300><img src="Images/IngredientAfter.png" width=300>
 
 ### Team
 Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
