@@ -25,20 +25,20 @@ In terms of the bare minimum, our system will allow for the inputting of recipes
 In terms of technology, we will be using the coding language Swift. We will also be using XCode to code in and utilize the emulator. We will have an emulator that will allow us to test different aspects of our application. It will enable us to view the app as if it were on a phone. This would further allow us to input recipes and ingredients and test our algorithms.
 We were able to utilize XCode’s emulation feature to test our application. XCode also has a feature that allows you to preview what each view would look like before you compile it all together. We ran into many issues that we were able to catch using the emulator. Below in Test 1, a recipe was successfully inputted into the application. In Test 2, an ingredient was successfully inputted into the application. We tested many features using the emulator, including changing tabs, refreshing screens, and closing and opening the application. Without the emulator, we would not have been able to catch nearly as many errors before transferring to the physical phone.
 #### Diagram for Architecture
-![plot](DiagramForProposalFixed.png)
+![](DiagramForProposalFixed.png)
 
 #### Final Diagram for Architecture
-![plot](DiagramForFinal.png)
+![](DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
-![plot](RecipeBefore.png =100x20)
-![plot](RecipeInput.png =100x20)
-![plot](RecipeAfter.png =100x20)
+![](RecipeBefore.png =100x20)
+![](RecipeInput.png =100x20)
+![](RecipeAfter.png =100x20)
 
 #### Test 2: Inputting Ingredients
-![plot](IngredientBefore.png =100x20)
-![plot](IngredientInput.png =100x20)
-![plot](IngredientAfter.png =100x20)
+![](IngredientBefore.png =100x20)
+![](IngredientInput.png =100x20)
+![](IngredientAfter.png =100x20)
 
 ### Team
 Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
