@@ -25,10 +25,10 @@ In terms of the bare minimum, our system will allow for the inputting of recipes
 In terms of technology, we will be using the coding language Swift. We will also be using XCode to code in and utilize the emulator. We will have an emulator that will allow us to test different aspects of our application. It will enable us to view the app as if it were on a phone. This would further allow us to input recipes and ingredients and test our algorithms.
 We were able to utilize XCode’s emulation feature to test our application. XCode also has a feature that allows you to preview what each view would look like before you compile it all together. We ran into many issues that we were able to catch using the emulator. Below in Test 1, a recipe was successfully inputted into the application. In Test 2, an ingredient was successfully inputted into the application. We tested many features using the emulator, including changing tabs, refreshing screens, and closing and opening the application. Without the emulator, we would not have been able to catch nearly as many errors before transferring to the physical phone.
 #### Diagram for Architecture
-![](DiagramForProposalFixed.png)
+![](Images/DiagramForProposalFixed.png)
 
 #### Final Diagram for Architecture
-![](DiagramForFinal.png)
+![](Images/DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
 <img src="Images/RecipeBefore.png" width=300><img src="Images/RecipeInput.png" width=300><img src="Images/RecipeAfter.png" width=300>
