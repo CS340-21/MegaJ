@@ -31,14 +31,14 @@ We were able to utilize XCode’s emulation feature to test our application. XCo
 ![plot](DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
-![plot](RecipeBefore.png){width=50%, height = 50%}
-![plot](RecipeInput.png){width=50%, height = 50%}
-![plot](RecipeAfter.png){width=50%, height = 50%}
+![plot](RecipeBefore.png =100x20)
+![plot](RecipeInput.png =100x20)
+![plot](RecipeAfter.png =100x20)
 
 #### Test 2: Inputting Ingredients
-![plot](IngredientBefore.png){width=50%, height = 50%}
-![plot](IngredientInput.png){width=50%, height = 50%}
-![plot](IngredientAfter.png){width=50%, height = 50%}
+![plot](IngredientBefore.png =100x20)
+![plot](IngredientInput.png =100x20)
+![plot](IngredientAfter.png =100x20)
 
 ### Team
 Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
