@@ -31,7 +31,7 @@ We were able to utilize XCode’s emulation feature to test our application. XCo
 ![](DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
-<img src="RecipeBefore.png" width=300><img src="RecipeInput.png" width=300><img src="RecipeAfter.png" width=300>
+<img src="RecipeBefore.png" width=300><img src="Images/RecipeInput.png" width=300><img src="RecipeAfter.png" width=300>
 
 #### Test 2: Inputting Ingredients
 <img src="IngredientBefore.png" width=300><img src="IngredientInput.png" width=300><img src="IngredientAfter.png" width=300>
