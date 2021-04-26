@@ -42,15 +42,15 @@ Joshua Gray has some experience working with Swift and XCode to create a mobile 
 #### Roles:
 The roles in parenthesis did not rotate. We did help each other with debugging and other tasks. Many of the tasks required us to work separately, but we worked together when possible.  
 ##### Joshua Gray (Experienced Programmer)  
-*Sorting Algorithms
-*App Layout Code
+* Sorting Algorithms
+* App Layout Code
 ##### Jaidin Jackson (User Advocate)  
-*UI design
-*Settings Tab Code
+* UI design
+* Settings Tab Code
 ##### Megan Stanton (Project Manager)  
-*Ingredient View Code
-*Recipe View Code
-*User Input Interface
+* Ingredient View Code
+* Recipe View Code
+* User Input Interface
 
 Overall, we all contributed equally to the project. Megan did a lot of the coding, but Joshua helped a lot with debugging as he had the most experience, and Jaidin designed most of the application and helped where needed. We tended to work separately, except for when design decisions needed to be made, or when one team member was stuck and required assistance.
 
