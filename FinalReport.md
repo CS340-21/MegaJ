@@ -28,14 +28,17 @@ We were able to utilize XCode’s emulation feature to test our application. XCo
 ![plot](DiagramForProposalFixed.png)
 
 #### Final Diagram for Architecture
-![plot](DiagramForFinalReport.png)
+![plot](DiagramForFinal.png)
 
 #### Test 1: Inputting a Recipe
-![plot](Test1.png)
-
+![plot](RecipeBefore.png)
+![plot](RecipeInput.png)
+![plot](RecipeAfter.png)
 
 #### Test 2: Inputting Ingredients
-![plot](Test2.png)
+![plot](IngredientBefore.png)
+![plot](IngredientInput.png)
+![plot](IngredientAfter.png)
 
 ### Team
 Joshua Gray has some experience working with Swift and XCode to create a mobile application. Jaidin Jackson and Megan Stanton have experience working with XCode but are new to Swift. We will most likely take a free online course in Swift in order to learn the tools needed to create the application. Jaidin Jackson and Megan Stanton also have experience creating user interfaces. Joshua Gray has experience making web sites, which will be useful when creating the social aspect of our app.
