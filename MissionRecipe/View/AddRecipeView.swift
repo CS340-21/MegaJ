@@ -14,7 +14,7 @@ struct AddRecipeView: View {
         ScrollView(.vertical, showsIndicators: false) {
         VStack {
           VStack(alignment: .leading, spacing: 20) {
-            Text("Ingredient Information")
+            Text("Recipe Information")
               .font(.system(.title, design: .serif))
               .fontWeight(.bold)
               .foregroundColor(Color("Teal"))
